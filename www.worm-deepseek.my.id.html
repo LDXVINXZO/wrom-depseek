@@ -1,0 +1,924 @@
+<!DOCTYPE html>
+<html lang="id"><head><base href="https://www.worm-deepseek.my.id/chat">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <title>Worm DeepSeek — Unlimited AI Chat Gratis Indonesia</title>
+  <meta name="description" content="Worm DeepSeek adalah platform web AI chat unlimited berbasis DeepSeek. Tanpa login, cepat, stabil, gratis untuk komunitas Indonesia. Chat AI 24/7 langsung di browser.">
+  <meta name="keywords" content="Worm DeepSeek, DeepSeek, AI Chat, ChatGPT alternatif, AI Indonesia, unlimited AI, deepseek web, yanshsID, UnityFire, SHS Suite, AI gratis, chatbot Indonesia">
+  <meta name="author" content="yanshsID — UnityFire">
+  <meta name="publisher" content="UnityFire">
+  <meta name="theme-color" content="#0b0b0c">
+  <meta name="color-scheme" content="dark">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="googlebot" content="index, follow">
+  <meta name="language" content="Indonesian">
+  <meta name="geo.region" content="ID">
+  <meta name="rating" content="general">
+  <meta name="application-name" content="Worm DeepSeek">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Worm DeepSeek">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="canonical" href="https://worm-deepseek.my.id/">
+  <link rel="icon" href="/images/icon.jpg" type="image/jpeg" sizes="32x32">
+  <link rel="icon" href="/images/icon.jpg" type="image/jpeg" sizes="192x192">
+  <link rel="shortcut icon" href="/images/icon.jpg" type="image/jpeg">
+  <link rel="apple-touch-icon" href="/images/icon.jpg">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Worm DeepSeek">
+  <meta property="og:title" content="Worm DeepSeek — Unlimited AI Chat Gratis">
+  <meta property="og:description" content="Chat AI DeepSeek unlimited di web. Tanpa login, cepat, stabil. Platform komunitas Indonesia by UnityFire.">
+  <meta property="og:image" content="https://worm-deepseek.my.id/images/image.jpg">
+  <meta property="og:image:alt" content="Worm DeepSeek AI Chat">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:url" content="https://worm-deepseek.my.id/">
+  <meta property="og:locale" content="id_ID">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Worm DeepSeek — Unlimited AI Chat Gratis">
+  <meta name="twitter:description" content="Chat AI DeepSeek unlimited di web. Tanpa login, cepat, stabil.">
+  <meta name="twitter:image" content="https://worm-deepseek.my.id/images/image.jpg">
+  <meta name="twitter:image:alt" content="Worm DeepSeek">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"WebApplication","name":"Worm DeepSeek","url":"https://worm-deepseek.my.id/","description":"Platform web AI chat unlimited berbasis DeepSeek untuk Indonesia.","applicationCategory":"MultimediaApplication","operatingSystem":"Web","offers":{"@type":"Offer","price":"0","priceCurrency":"IDR"},"author":{"@type":"Person","name":"yanshsID"},"publisher":{"@type":"Organization","name":"UnityFire"}}
+  </script>
+  <script type="module" crossorigin="" data-bundled-from="https://www.worm-deepseek.my.id/assets/index-CoSYCXlH.js">(function() {
+  const t = document.createElement("link").relList;
+  if (t && t.supports && t.supports("modulepreload")) return;
+  for (const s of document.querySelectorAll('link[rel="modulepreload"]')) a(s);
+  new MutationObserver(s => {
+    for (const i of s)
+      if (i.type === "childList")
+        for (const o of i.addedNodes) o.tagName === "LINK" && o.rel === "modulepreload" && a(o)
+  }).observe(document, {
+    childList: !0,
+    subtree: !0
+  });
+
+  function n(s) {
+    const i = {};
+    return s.integrity && (i.integrity = s.integrity), s.referrerPolicy && (i.referrerPolicy = s.referrerPolicy), s.crossOrigin === "use-credentials" ? i.credentials = "include" : s.crossOrigin === "anonymous" ? i.credentials = "omit" : i.credentials = "same-origin", i
+  }
+
+  function a(s) {
+    if (s.ep) return;
+    s.ep = !0;
+    const i = n(s);
+    fetch(s.href, i)
+  }
+})();
+const ke = "modulepreload",
+  Se = function(e) {
+    return "/" + e
+  },
+  se = {},
+  xe = function(t, n, a) {
+    let s = Promise.resolve();
+    if (n && n.length > 0) {
+      document.getElementsByTagName("link");
+      const o = document.querySelector("meta[property=csp-nonce]"),
+        r = (o == null ? void 0 : o.nonce) || (o == null ? void 0 : o.getAttribute("nonce"));
+      s = Promise.allSettled(n.map(c => {
+        if (c = Se(c), c in se) return;
+        se[c] = !0;
+        const p = c.endsWith(".css"),
+          w = p ? '[rel="stylesheet"]' : "";
+        if (document.querySelector(`link[href="${c}"]${w}`)) return;
+        const l = document.createElement("link");
+        if (l.rel = p ? "stylesheet" : ke, p || (l.as = "script"), l.crossOrigin = "", l.href = c, r && l.setAttribute("nonce", r), document.head.appendChild(l), p) return new Promise((x, T) => {
+          l.addEventListener("load", x), l.addEventListener("error", () => T(new Error(`Unable to preload CSS for ${c}`)))
+        })
+      }))
+    }
+
+    function i(o) {
+      const r = new Event("vite:preloadError", {
+        cancelable: !0
+      });
+      if (r.payload = o, window.dispatchEvent(r), !r.defaultPrevented) throw o
+    }
+    return s.then(o => {
+      for (const r of o || []) r.status === "rejected" && i(r.reason);
+      return t().catch(i)
+    })
+  },
+  U = {},
+  ae = (U == null ? void 0 : U.VITE_API_ORIGIN) || (typeof location < "u" ? location.origin : ""),
+  j = "shs_pow_key",
+  P = "shs_pow_exp";
+
+function W() {
+  try {
+    const e = Number(localStorage.getItem(P) || "0");
+    return e && Date.now() / 1e3 > e - 60 ? (localStorage.removeItem(j), localStorage.removeItem(P), "") : localStorage.getItem(j) || ""
+  } catch {
+    return ""
+  }
+}
+
+function ue(e, t) {
+  localStorage.setItem(j, e), t && localStorage.setItem(P, String(t))
+}
+
+function Ee() {
+  localStorage.removeItem(j), localStorage.removeItem(P)
+}
+async function Me(e) {
+  const t = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(e)),
+    n = new Uint8Array(t);
+  let a = "";
+  for (let s = 0; s < n.length; s++) a += n[s].toString(16).padStart(2, "0");
+  return a
+}
+async function Ie(e, t, n) {
+  const a = "0".repeat(Math.min(Math.max(n, 1), 6));
+  let s = 0;
+  const i = 64;
+  for (;;) {
+    for (let o = 0; o < i; o++) {
+      if ((await Me(`${e}:${t}:${s}`)).startsWith(a)) return String(s);
+      s++
+    }
+    await new Promise(o => setTimeout(o, 0))
+  }
+}
+async function he(e) {
+  const t = W();
+  if (t.startsWith("shs_")) return t;
+  const n = await fetch(`${ae}/api/Pow_challenge`, {
+    credentials: "same-origin"
+  });
+  if (!n.ok) {
+    const c = await n.text();
+    throw new Error(`Challenge gagal (${n.status}): ${c.slice(0,80)}`)
+  }
+  const a = await n.json();
+  if (!a.challenge || !a.token) throw new Error(a.error || "pow challenge gagal");
+  const s = Math.min(Number(a.difficulty || 4), 5),
+    i = await Ie(a.challenge, a.salt || "", s),
+    o = await fetch(`${ae}/api/createKey`, {
+      method: "POST",
+      credentials: "same-origin",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({
+        token: a.token,
+        nonce: i,
+        device_id: e
+      })
+    }),
+    r = await o.json().catch(() => ({}));
+  if (!o.ok || !r.api_key) throw new Error(r.error || `createKey gagal (${o.status})`);
+  return ue(r.api_key, r.expires_at), r.api_key
+}
+const Le = Object.freeze(Object.defineProperty({
+    __proto__: null,
+    ensureSessionKey: he,
+    loadSessionKey: W,
+    resetSessionKey: Ee,
+    saveSessionKey: ue
+  }, Symbol.toStringTag, {
+    value: "Module"
+  })),
+  z = {},
+  F = (z == null ? void 0 : z.VITE_API_URL) || (typeof location < "u" ? `${location.origin}/api/chat` : "/api/chat"),
+  $e = ["pdf", "txt", "md", "csv", "json", "xml", "html", "htm", "css", "js", "ts", "tsx", "jsx", "py", "java", "c", "cpp", "h", "go", "rs", "rb", "php", "sql", "yaml", "yml", "toml", "log", "ini", "cfg", "doc", "docx", "xls", "xlsx", "ppt", "pptx", "rtf", "png", "jpg", "jpeg", "gif", "webp", "bmp", "svg"];
+
+function Be(e) {
+  var n;
+  const t = ((n = e.split(".").pop()) == null ? void 0 : n.toLowerCase()) || "";
+  return $e.includes(t)
+}
+
+function ie() {
+  const e = "shs_did";
+  let t = localStorage.getItem(e);
+  return t || (t = crypto.randomUUID(), localStorage.setItem(e, t)), t
+}
+let E = "";
+async function J(e = !0) {
+  E || (E = W(), E || (E = await he(ie())));
+  const t = {
+    "X-Api-Key": E,
+    "X-Device-Id": ie(),
+    "X-App-Version": "1.0.0",
+    "X-Client-Platform": "web",
+    "X-Client-Locale": "id_ID"
+  };
+  return e && (t["Content-Type"] = "application/json"), t
+}
+async function me(e) {
+  const t = await e.text();
+  try {
+    return JSON.parse(t)
+  } catch {
+    throw new Error(`Server error (HTTP ${e.status}): ${t.slice(0,160).replace(/\s+/g," ")}`)
+  }
+}
+async function Ce() {
+  const e = await fetch(F, {
+      method: "POST",
+      headers: await J(),
+      body: JSON.stringify({
+        action: "create_session"
+      })
+    }),
+    t = await me(e);
+  if (!t.session) throw new Error(t.error || "no session");
+  return t.session
+}
+async function Te(e, t, n) {
+  const a = `${F}?session=${encodeURIComponent(e)}&filename=${encodeURIComponent(t)}`;
+  let s;
+  try {
+    s = await fetch(a, {
+      method: "PUT",
+      headers: {
+        ...await J(!1),
+        "Content-Type": "application/octet-stream"
+      },
+      body: n
+    })
+  } catch (o) {
+    throw new Error("Gagal fetch upload: " + (o.message || "network"))
+  }
+  const i = await me(s);
+  if (!i.file_id) throw new Error(i.error || "upload gagal");
+  return i.file_id
+}
+async function* He(e) {
+  const t = await fetch(F, {
+      method: "POST",
+      headers: await J(),
+      body: JSON.stringify({
+        message: e.message,
+        stream: !0,
+        thinking: !!e.thinking,
+        search: !!e.search,
+        session: e.session,
+        parent_message_id: e.parentMessageId,
+        file_ids: e.fileIds || []
+      })
+    }),
+    n = t.headers.get("content-type") || "";
+  if (!t.ok || !t.body || !n.includes("text/event-stream")) {
+    const o = await t.text();
+    let r = o.slice(0, 200);
+    try {
+      const c = JSON.parse(o);
+      r = c.error || c.message || r
+    } catch {}
+    yield {
+      error: `http ${t.status}: ${r}`
+    };
+    return
+  }
+  const a = t.body.getReader(),
+    s = new TextDecoder;
+  let i = "";
+  for (;;) {
+    const {
+      done: o,
+      value: r
+    } = await a.read();
+    if (o) break;
+    i += s.decode(r, {
+      stream: !0
+    });
+    const c = i.split(`
+
+`);
+    i = c.pop() || "";
+    for (const p of c) {
+      const w = p.trim();
+      if (!w.startsWith("data:")) continue;
+      const l = w.slice(5).trim();
+      if (l) try {
+        yield JSON.parse(l)
+      } catch {}
+    }
+  }
+}
+
+function d(e) {
+  return String(e).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
+}
+
+function _e(e) {
+  let t = d(e);
+  const n = "const|let|var|function|return|if|else|for|while|class|import|from|export|default|async|await|try|catch|new|this|true|false|null|undefined|def|print|public|private|static|void|int|string|bool|package|type|interface|extends|implements|switch|case|break|continue|throw|typeof|in|of|as|with|yield|pass|lambda|self|None|True|False|and|or|not|echo|foreach|endif|endfor";
+  return t = t.replace(new RegExp("\\b(" + n + ")\\b", "g"), '<span class="kw">$1</span>'), t = t.replace(/("(?:\\.|[^"\\])*"|'(?:\\.|[^'\\])*')/g, '<span class="st">$1</span>'), t = t.replace(/(\/\/[^\n]*)/g, '<span class="cm">$1</span>'), t = t.replace(/(#[^\n]*)/g, '<span class="cm">$1</span>'), t = t.replace(/\b(\d+\.?\d*)\b/g, '<span class="nu">$1</span>'), t = t.replace(/(\$[a-zA-Z_][a-zA-Z0-9_]*)/g, '<span class="fn">$1</span>'), t = t.replace(/\b([a-zA-Z_][a-zA-Z0-9_]*)\s*(?=\()/g, '<span class="fn">$1</span>'), t
+}
+
+function oe(e, t) {
+  const n = (e || "code").toLowerCase() || "code";
+  return `<div class="codebox"><div class="codehd"><span>${d(n)}</span><button type="button" class="copybtn">Salin</button></div><pre><code>${_e(t.replace(/\n$/,""))}</code></pre></div>`
+}
+
+function H(e) {
+  const t = [];
+  let n = e.replace(/```(\w*)\n?([\s\S]*?)```/g, (i, o, r) => {
+    const c = t.length;
+    return t.push(oe(o, r)), `@@CODE${c}@@`
+  });
+  const a = n.match(/```(\w*)\n?([\s\S]*)$/);
+  let s = "";
+  if (a && !n.endsWith("```") && (s = a[0], n = n.slice(0, n.length - s.length)), n = d(n), n = n.replace(/`([^`\n]+)`/g, "<code>$1</code>"), n = n.replace(/\*\*\*([^*\n]+)\*\*\*/g, "<strong><em>$1</em></strong>"), n = n.replace(/\*\*([^*\n]+)\*\*/g, "<strong>$1</strong>"), n = n.replace(new RegExp("(?<!\\*)\\*([^*\\n]+)\\*(?!\\*)", "g"), "<em>$1</em>"), n = n.replace(/~~([^~\n]+)~~/g, "<s>$1</s>"), n = n.replace(/\[citation:(\d+)\]/g, '<span class="ci" data-c="$1">$1</span>'), n = n.replace(/^### (.+)$/gm, '<div class="h">$1</div>'), n = n.replace(/\n/g, "<br>"), n = n.replace(/@@CODE(\d+)@@/g, (i, o) => t[Number(o)] || ""), s) {
+    const i = s.match(/^```(\w*)\n?([\s\S]*)$/);
+    i ? n += oe(i[1] || "code", i[2]) : n += d(s).replace(/\n/g, "<br>")
+  }
+  return n
+}
+const Oe = document.getElementById("app"),
+  ve = "shs_hist";
+let g = null,
+  S = null,
+  O = !1,
+  ge = !1,
+  f = [],
+  A = !1,
+  L = !1,
+  q = [],
+  D = !1,
+  M = !1,
+  v = null;
+
+function fe() {
+  try {
+    return JSON.parse(localStorage.getItem(ve) || "[]")
+  } catch {
+    return []
+  }
+}
+
+function Ae(e) {
+  localStorage.setItem(ve, JSON.stringify(e.slice(0, 50)))
+}
+
+function K(e) {
+  if (!g) return;
+  const t = fe().filter(n => n.sid !== g);
+  t.unshift({
+    id: crypto.randomUUID(),
+    title: e.slice(0, 48) || "Obrolan baru",
+    sid: g,
+    pid: S
+  }), Ae(t), N()
+}
+Oe.innerHTML = `
+<div class="side-bg" id="sideBg"></div>
+<aside class="side" id="side">
+  <div class="side-h">
+    <input class="side-search" id="sideSearch" placeholder="Cari konten chat..." />
+  </div>
+  <div class="side-list" id="sideList"></div>
+  <div class="side-ft">SHS AI</div>
+</aside>
+<div class="main-wrap">
+  <div class="hdr">
+    <button class="ib" id="btnMenu" aria-label="menu">
+      <svg viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+    </button>
+    <div class="hdr-c">
+      <div class="hdr-t" id="title">Obrolan baru</div>
+      <div class="hdr-s">
+        <svg width="10" height="10" viewBox="0 0 24 24"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" fill="#ef4444" stroke="none"/></svg>
+        Cepat
+      </div>
+    </div>
+    <button class="hdr-link" id="btnDonate" type="button">Donasi</button>
+    <button class="hdr-link" id="btnCommunity" type="button">Community</button>
+    <button class="ib" id="btnNew" aria-label="new">
+      <svg viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg>
+    </button>
+  </div>
+  <div class="sc" id="sc">
+    <div class="boot" id="boot"><div class="sp"></div><div>Menyiapkan session &amp; keamanan...</div></div>
+  </div>
+  <div class="ft">
+    <div class="ft-i">
+      <div class="status-line" id="st"></div>
+      <div class="files" id="files"></div>
+      <div class="box">
+        <textarea id="inp" rows="1" placeholder="Ketik pesan atau tahan untuk bicara" disabled></textarea>
+        <div class="bar">
+          <div class="opts">
+            <div class="opt" id="oTh">
+              <svg viewBox="0 0 24 24"><path d="M9 18h6M10 22h4M12 2a7 7 0 0 1 4 12.7V17H8v-2.3A7 7 0 0 1 12 2z"/></svg>
+              Berpikir
+            </div>
+            <div class="opt" id="oSe">
+              <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+              Mencari
+            </div>
+          </div>
+          <div class="ract">
+            <button id="btnMic" type="button" title="Speech">
+              <svg viewBox="0 0 24 24"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2M12 19v4M8 23h8"/></svg>
+            </button>
+            <button id="btnPlus" type="button" disabled>
+              <svg viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg>
+            </button>
+            <button class="send" id="btn" type="button" disabled>
+              <svg viewBox="0 0 24 24"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="attach" id="att">
+        <button class="att-b" type="button" data-a="image/*">
+          <svg viewBox="0 0 24 24"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+          Kamera
+        </button>
+        <button class="att-b" type="button" data-a="image/*">
+          <svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+          Album
+        </button>
+        <button class="att-b" type="button" data-a=".pdf,.txt,.md,.csv,.json,.doc,.docx,.xls,.xlsx,.ppt,.pptx,.png,.jpg,.jpeg,.gif,.webp,.html,.css,.js,.ts,.py">
+          <svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M16 13H8M16 17H8M10 9H8"/></svg>
+          Dokumen
+        </button>
+      </div>
+      <div class="hint">Mode Cepat: hanya ekstraksi teks · pdf/txt/gambar</div>
+    </div>
+  </div>
+</div>
+<input type="file" id="fi" hidden multiple>
+<div class="ov" id="ov">
+  <div class="sheet">
+    <div class="sheet-h">
+      <h3>Hasil Pencarian</h3>
+      <button class="ib" id="btnCloseSh" type="button"><svg viewBox="0 0 24 24"><path d="M18 6L6 18M6 6l12 12"/></svg></button>
+    </div>
+    <div class="sheet-b" id="shb"></div>
+  </div>
+</div>
+`;
+const b = document.getElementById("sc"),
+  y = document.getElementById("inp"),
+  R = document.getElementById("btn"),
+  ye = document.getElementById("btnPlus"),
+  I = document.getElementById("btnMic"),
+  ce = document.getElementById("files"),
+  m = document.getElementById("st"),
+  $ = document.getElementById("title"),
+  k = document.getElementById("fi"),
+  G = document.getElementById("att"),
+  B = document.getElementById("ov"),
+  De = document.getElementById("shb"),
+  re = document.getElementById("oTh"),
+  le = document.getElementById("oSe"),
+  be = document.getElementById("side"),
+  X = document.getElementById("sideBg"),
+  de = document.getElementById("sideList"),
+  V = document.getElementById("sideSearch"),
+  je = '<svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg>';
+
+function Z(e) {
+  y.disabled = !e, R.disabled = !e || O, ye.disabled = !e, ge = e
+}
+
+function Q() {
+  b.scrollTop = b.scrollHeight
+}
+
+function Y() {
+  y.style.height = "auto", y.style.height = Math.min(y.scrollHeight, 120) + "px"
+}
+
+function C() {
+  ce.innerHTML = f.map(e => {
+    const t = (e.file.size / 1024).toFixed(1).replace(".", ","),
+      n = "fchip" + (e.status === "uploading" ? " uploading" : "") + (e.status === "error" ? " error" : "") + (e.status === "ok" ? " ok" : "");
+    let a = je;
+    return e.status === "uploading" ? a = e.preview ? `<img src="${e.preview}" alt=""><div class="foverlay"><div class="fspin"></div></div>` : '<div class="fspin"></div>' : e.preview && (a = `<img src="${e.preview}" alt="">`), `<div class="${n}" data-id="${e.id}">
+        <div class="fi">${a}</div>
+        <div>
+          <div class="fn">${d(e.file.name)}</div>
+          <div class="fs">${t} KB</div>
+          ${e.status==="error"?`<div class="ferr">${d(e.error||"gagal")}</div>`:""}
+        </div>
+        <button type="button" data-rm="${e.id}">✕</button>
+      </div>`
+  }).join(""), ce.querySelectorAll("button[data-rm]").forEach(e => {
+    e.addEventListener("click", () => {
+      const t = e.dataset.rm,
+        n = f.find(a => a.id === t);
+      n != null && n.preview && URL.revokeObjectURL(n.preview), f = f.filter(a => a.id !== t), C()
+    })
+  })
+}
+
+function _(e) {
+  e.querySelectorAll(".copybtn").forEach(t => {
+    t.addEventListener("click", () => {
+      var a, s, i;
+      const n = ((s = (a = t.closest(".codebox")) == null ? void 0 : a.querySelector("code")) == null ? void 0 : s.textContent) || "";
+      (i = navigator.clipboard) == null || i.writeText(n), t.textContent = "Disalin", setTimeout(() => t.textContent = "Salin", 1200)
+    })
+  })
+}
+
+function Pe(e, t = []) {
+  const n = document.createElement("div");
+  n.className = "msg u";
+  let a = "";
+  t.length && (a += '<div class="ufiles">' + t.map(s => {
+    const i = (s.size / 1024).toFixed(s.size < 1024 ? 0 : 1).replace(".", ","),
+      o = s.size < 1024 ? "B" : "KB",
+      r = s.size < 1024 ? String(s.size) : i;
+    return `<div class="uchip">${s.preview?`<img class="uthumb" src="${s.preview}" alt="">`:'<div class="udoc"><svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" fill="#ef4444" stroke="none"/><path d="M14 2v6h6" fill="#fca5a5" stroke="none"/><path d="M8 13h8M8 17h5" stroke="#fff" stroke-width="1.5" fill="none"/></svg></div>'}<div class="umeta"><div class="uname">${d(s.name)}</div><div class="usize">${r}${o==="B"?"B":" "+o}</div></div></div>`
+  }).join("") + "</div>"), e && (a += `<div class="ub">${d(e)}</div>`), n.innerHTML = a || '<div class="ub">(file)</div>', b.appendChild(n), Q()
+}
+
+function Re() {
+  var a;
+  const e = document.createElement("div");
+  e.className = "msg", e.innerHTML = `<div class="ab">
+    <div class="read-web"></div>
+    <div class="thk"><div class="thk-h">Berpikir ▾</div><div class="thk-b"></div></div>
+    <div class="at"><div class="typing"><span></span><span></span><span></span></div></div>
+    <div class="src-row"></div>
+    <div class="acts">
+      <button type="button" data-a="copy"><svg viewBox="0 0 24 24"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button>
+      <button type="button"><svg viewBox="0 0 24 24"><path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3H14zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"/></svg></button>
+      <button type="button"><svg viewBox="0 0 24 24"><path d="M10 15v4a3 3 0 0 0 3 3l4-9V2H5.72a2 2 0 0 0-2 1.7l-1.38 9a2 2 0 0 0 2 2.3H10zM17 2h2.67A2.31 2.31 0 0 1 22 4v7a2.31 2.31 0 0 1-2.33 2H17"/></svg></button>
+      <button type="button"><svg viewBox="0 0 24 24"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.6 13.5l6.8 4M15.4 6.5l-6.8 4"/></svg></button>
+      <div style="flex:1"></div>
+      <button type="button"><svg viewBox="0 0 24 24"><path d="M1 4v6h6"/><path d="M3.5 15a9 9 0 1 0 2.1-8.7L1 10"/></svg></button>
+    </div>
+  </div>`, b.appendChild(e);
+  const t = e.querySelector(".thk-h"),
+    n = e.querySelector(".thk-b");
+  return t.onclick = () => {
+    n.style.display = n.style.display === "none" ? "block" : "none"
+  }, (a = e.querySelector('[data-a="copy"]')) == null || a.addEventListener("click", () => {
+    var i;
+    const s = e.querySelector(".at").innerText;
+    (i = navigator.clipboard) == null || i.writeText(s)
+  }), Q(), e
+}
+
+function Ne(e, t) {
+  var s, i;
+  if (!t.length) return;
+  q = t;
+  const n = t.slice(0, 4).map(o => o.site_icon ? `<img src="${d(o.site_icon)}" onerror="this.remove()">` : "").join("");
+  e.innerHTML = `<div class="src-chip"><span class="src-ic">${n}</span><span>${t.length} halaman web</span></div>`, (s = e.querySelector(".src-chip")) == null || s.addEventListener("click", pe);
+  const a = (i = e.parentElement) == null ? void 0 : i.querySelector(".read-web");
+  a && (a.classList.add("show"), a.textContent = `Baca ${t.length} halaman web ›`, a.onclick = pe)
+}
+
+function pe() {
+  De.innerHTML = q.map((e, t) => `
+    <a class="si" href="${d(e.url||"#")}" target="_blank" rel="noopener">
+      <div class="si-t">
+        ${e.site_icon?`<img class="si-ic" src="${d(e.site_icon)}" onerror="this.remove()">`:""}
+        <span class="si-site">${d(e.site_name||"")}</span>
+        <span class="si-n">${e.cite_index!=null?e.cite_index:t+1}</span>
+      </div>
+      <div class="si-title">${d(e.title||"Sumber")}</div>
+      ${e.url?`<div class="si-url">${d(e.url)}</div>`:""}
+      ${e.snippet?`<div class="si-sn">${d(e.snippet)}</div>`:""}
+    </a>`).join(""), B.classList.add("show")
+}
+
+function N(e = "") {
+  const t = fe().filter(n => !e || n.title.toLowerCase().includes(e.toLowerCase()));
+  de.innerHTML = '<div class="side-label">Hari ini</div>' + t.map(n => `<div class="side-item" data-sid="${d(n.sid)}" data-pid="${n.pid??""}">${d(n.title)}</div>`).join("") || '<div class="side-label">Belum ada riwayat</div>', de.querySelectorAll(".side-item").forEach(n => {
+    n.addEventListener("click", () => {
+      const a = n.dataset;
+      g = a.sid || null, S = a.pid ? Number(a.pid) : null, $.textContent = n.textContent || "Obrolan", b.innerHTML = '<div class="empty"><h1>SHS AI</h1><p>Lanjutkan percakapan ini.</p></div>', ee(), Z(!0)
+    })
+  })
+}
+
+function Ue() {
+  be.classList.add("open"), X.classList.add("open"), N(V.value)
+}
+
+function ee() {
+  be.classList.remove("open"), X.classList.remove("open")
+}
+async function te() {
+  var t, n;
+  const e = document.getElementById("boot");
+  try {
+    e && (e.innerHTML = '<div class="sp"></div><div>Menyiapkan keamanan...</div>');
+    const {
+      ensureSessionKey: a,
+      resetSessionKey: s,
+      loadSessionKey: i
+    } = await xe(async () => {
+      const {
+        ensureSessionKey: o,
+        resetSessionKey: r,
+        loadSessionKey: c
+      } = await Promise.resolve().then(() => Le);
+      return {
+        ensureSessionKey: o,
+        resetSessionKey: r,
+        loadSessionKey: c
+      }
+    }, void 0);
+    try {
+      await a(localStorage.getItem("shs_did") || crypto.randomUUID())
+    } catch {
+      s(), await a(localStorage.getItem("shs_did") || crypto.randomUUID())
+    }
+    e && (e.innerHTML = '<div class="sp"></div><div>Membuat session...</div>'), g = await Ce(), S = null, (t = document.getElementById("boot")) == null || t.remove(), b.innerHTML = '<div class="empty"><h1>Worm DeepSeek</h1><p>Bagaimana saya bisa membantu Anda hari ini?</p></div>', Z(!0)
+  } catch (a) {
+    const s = document.getElementById("boot");
+    s && (s.innerHTML = `<div style="text-align:center;padding:16px;max-width:320px"><div style="color:#f87171;margin-bottom:10px">${d(a.message||"gagal")}</div><button class="land-btn" id="bootRetry" style="padding:10px 20px;font-size:14px">Coba lagi</button></div>`), (n = document.getElementById("bootRetry")) == null || n.addEventListener("click", () => {
+      s && (s.innerHTML = '<div class="sp"></div><div>Menyiapkan session...</div>'), te()
+    })
+  }
+}
+
+function ze() {
+  g = null, S = null, f.forEach(e => e.preview && URL.revokeObjectURL(e.preview)), f = [], q = [], C(), $.textContent = "Obrolan baru", m.textContent = "", b.innerHTML = '<div class="boot" id="boot"><div class="sp"></div><div>Menyiapkan session &amp; keamanan...</div></div>', Z(!1), ee(), te()
+}
+async function Ke(e) {
+  if (!g) {
+    m.textContent = "Session belum siap";
+    return
+  }
+  for (const t of Array.from(e)) {
+    if (!Be(t.name)) {
+      m.textContent = `Tipe tidak didukung: ${t.name}`;
+      continue
+    }
+    const a = {
+      id: crypto.randomUUID(),
+      file: t,
+      status: "uploading",
+      preview: t.type.startsWith("image/") ? URL.createObjectURL(t) : void 0
+    };
+    f.push(a), C();
+    try {
+      const s = await Te(g, t.name, t);
+      a.status = "ok", a.fileId = s
+    } catch (s) {
+      a.status = "error", a.error = String(s.message || s).slice(0, 80)
+    }
+    C()
+  }
+  D = !1, G.classList.remove("show")
+}
+
+function Ve() {
+  const e = window,
+    t = e.SpeechRecognition || e.webkitSpeechRecognition;
+  if (!t) {
+    m.textContent = "Speech tidak didukung (pakai Chrome/Edge)";
+    return
+  }
+  if (M && v) {
+    try {
+      v.stop()
+    } catch {}
+    M = !1, I.classList.remove("rec"), m.textContent = "";
+    return
+  }
+  v = new t, v.lang = "id-ID", v.interimResults = !0, v.continuous = !1, v.onstart = () => {
+    M = !0, I.classList.add("rec"), m.textContent = "Mendengarkan..."
+  }, v.onresult = n => {
+    let a = "";
+    for (let s = 0; s < n.results.length; s++) a += n.results[s][0].transcript;
+    y.value = a, Y()
+  }, v.onerror = n => {
+    M = !1, I.classList.remove("rec"), m.textContent = "Mic: " + (n.error || "error")
+  }, v.onend = () => {
+    M = !1, I.classList.remove("rec"), m.textContent === "Mendengarkan..." && (m.textContent = "")
+  };
+  try {
+    v.start()
+  } catch (n) {
+    m.textContent = "Mic gagal: " + (n.message || "start")
+  }
+}
+async function we() {
+  var T, ne;
+  if (O || !ge || !g) return;
+  const e = y.value.trim(),
+    t = f.filter(u => u.status === "ok" && u.fileId);
+  if (f.some(u => u.status === "uploading")) {
+    m.textContent = "Tunggu upload selesai...";
+    return
+  }
+  if (!e && !t.length) return;
+  (T = b.querySelector(".empty")) == null || T.remove();
+  const a = t.map(u => ({
+    name: u.file.name,
+    size: u.file.size,
+    preview: u.preview
+  }));
+  Pe(e, a), We(e), e ? ($.textContent = e.slice(0, 36), K(e)) : t[0] && ($.textContent = t[0].file.name.slice(0, 36), K(t[0].file.name)), y.value = "", Y();
+  const s = t.map(u => u.fileId);
+  f = [], C();
+  const i = Re(),
+    o = i.querySelector(".thk"),
+    r = i.querySelector(".thk-b"),
+    c = i.querySelector(".at"),
+    p = i.querySelector(".src-row");
+  let w = "",
+    l = "",
+    x = [];
+  O = !0, R.disabled = !0, L && (m.textContent = "Mencari" + (e ? ` "${e.slice(0,40)}"` : ""));
+  try {
+    const u = e || (s.length ? "Baca dan jelaskan isi file yang saya upload secara lengkap." : "Halo");
+    for await (const h of He({
+      message: u,
+      session: g,
+      parentMessageId: S,
+      fileIds: s,
+      thinking: A,
+      search: L
+    })) h.session && (g = h.session), h.parent_message_id != null && (S = Number(h.parent_message_id)), h.error && (l += `
+[Error] ` + h.error, c.innerHTML = H(l), _(c)), h.search && ((ne = h.results) != null && ne.length) && (x = x.concat(h.results), Ne(p, x)), h.thinking && (w += h.thinking, o.classList.add("show"), r.textContent = w), h.content && (l += h.content, c.innerHTML = H(l), _(c)), Q();
+    c.innerHTML = H(l || "(tidak ada respons)"), _(c)
+  } catch (u) {
+    c.innerHTML = H(l + `
+[Error] ` + u.message), _(c)
+  }
+  m.textContent = "", O = !1, R.disabled = !1, K($.textContent || "Obrolan")
+}
+document.getElementById("btnMenu").onclick = Ue;
+document.getElementById("btnNew").onclick = ze;
+X.onclick = ee;
+V.oninput = () => N(V.value);
+re.onclick = () => {
+  A = !A, re.classList.toggle("on", A)
+};
+le.onclick = () => {
+  L = !L, le.classList.toggle("on", L)
+};
+ye.onclick = () => {
+  D = !D, G.classList.toggle("show", D)
+};
+I.onclick = e => {
+  e.preventDefault(), Ve()
+};
+R.onclick = () => we();
+y.onkeydown = e => {
+  e.key === "Enter" && (e.metaKey || e.ctrlKey) && (e.preventDefault(), we())
+};
+y.oninput = () => Y();
+k.onchange = () => {
+  var e;
+  (e = k.files) != null && e.length && Ke(k.files), k.value = ""
+};
+G.querySelectorAll(".att-b").forEach(e => {
+  e.addEventListener("click", () => {
+    k.accept = e.dataset.a || ".pdf,.txt,.png,.jpg", k.click()
+  })
+});
+document.getElementById("btnCloseSh").onclick = () => B.classList.remove("show");
+B.onclick = e => {
+  e.target === B && B.classList.remove("show")
+};
+async function We(e) {
+  try {
+    await fetch("/api/telegram", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({
+        message: e.slice(0, 500),
+        path: location.pathname,
+        ua: navigator.userAgent
+      })
+    })
+  } catch {}
+}
+
+function Fe() {
+  if (document.getElementById("donOv")) return;
+  const e = document.createElement("div");
+  e.className = "pay-ov", e.id = "donOv", e.innerHTML = `
+    <div class="pay-card">
+      <h3>Donasi</h3>
+      <p>Masukkan nominal donasi (min. 100). Terima kasih atas dukungannya.</p>
+      <input class="auth-inp" id="donAmt" type="number" min="100" step="100" placeholder="Contoh: 5000" value="1000" />
+      <div id="donArea"></div>
+      <div style="display:flex;gap:8px;margin-top:12px">
+        <button class="pay-close" id="donCancel" style="flex:1">Batal</button>
+        <button class="land-btn" id="donGo" style="flex:1;margin:0;padding:12px">Lanjut</button>
+      </div>
+    </div>
+  `, document.body.appendChild(e), document.getElementById("donCancel").onclick = () => e.remove(), document.getElementById("donGo").onclick = async () => {
+    const t = Math.max(100, Number(document.getElementById("donAmt").value || 0)),
+      n = document.getElementById("donArea"),
+      a = document.getElementById("donGo");
+    a.disabled = !0, n.innerHTML = '<div class="pay-st">Membuat QR...</div>';
+    try {
+      const i = await (await fetch("/api/payment", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+          action: "donate",
+          amount: t
+        })
+      })).json();
+      if (!i.success && !i.data) throw new Error(i.error || "gagal buat QR");
+      const o = i.data,
+        r = o.totalAmount || o.amount || t,
+        c = o.qrImage || "";
+      n.innerHTML = `
+        <div class="pay-qr">${c?`<img src="${c}" alt="QRIS" />`:""}</div>
+        <div class="pay-amt">Rp ${Number(r).toLocaleString("id-ID")}</div>
+      `, a.style.display = "none";
+      const p = document.createElement("button");
+      p.className = "land-btn", p.style.cssText = "flex:1;margin:0;padding:12px", p.textContent = "Sudah", p.onclick = () => {
+        e.innerHTML = '<div class="pay-card"><h3>Terima kasih!</h3><p>Terima kasih sudah donasi. Semoga harimu menyenangkan.</p><button class="pay-close" id="donOk">Tutup</button></div>', document.getElementById("donOk").onclick = () => e.remove()
+      }, document.getElementById("donCancel").parentElement.appendChild(p)
+    } catch (s) {
+      n.innerHTML = `<div class="pay-st" style="color:#f87171">${s.message||"error"}</div>`, a.disabled = !1
+    }
+  }
+}
+
+function Je() {
+  const e = () => {
+    fetch("/api/deepseek?t=" + Date.now()).catch(() => {})
+  };
+  e(), setInterval(e, 1e3)
+}
+if (location.pathname === "/chat" || location.pathname.endsWith("/chat") || location.search.includes("chat=1")) document.getElementById("btnDonate").onclick = () => Fe(), document.getElementById("btnCommunity").onclick = () => {
+  window.open("https://t.me/aptghostidn", "_blank")
+}, N(), te(), Je();
+else {
+  document.body.style.overflow = "auto", document.documentElement.style.overflow = "auto", document.body.innerHTML = `
+    <div class="home">
+      <div class="home-bg"></div>
+      <div class="home-grid"></div>
+      <header class="home-top">
+        <div class="home-brand">
+          <img src="/images/icon.jpg" alt="Worm DeepSeek" class="home-ico" width="32" height="32" />
+          <span>Worm DeepSeek</span>
+        </div>
+        <nav class="home-nav">
+          <a href="https://t.me/aptghostidn" target="_blank" rel="noopener">Community</a>
+          <a href="https://t.me/shssuite" target="_blank" rel="noopener">Channel</a>
+          <a class="home-nav-cta" href="/chat">Chat</a>
+        </nav>
+      </header>
+      <main class="home-hero">
+        <div class="home-badge">Powered by DeepSeek · Unlimited Access</div>
+        <h1>AI Chat tanpa batas<br/><span>di genggamanmu</span></h1>
+        <p class="home-lead">Platform web DeepSeek untuk Indonesia. Tanpa login, respons streaming cepat, siap 24/7. Gratis dipakai kapan saja.</p>
+        <div class="home-actions">
+          <button type="button" class="land-btn" id="landChat">Mulai Chat</button>
+          <a class="home-ghost" href="https://t.me/aptghostidn" target="_blank" rel="noopener">Gabung Community</a>
+        </div>
+        <div class="home-stats">
+          <div><strong>∞</strong><span>Pesan</span></div>
+          <div><strong>0</strong><span>Login</span></div>
+          <div><strong>24/7</strong><span>Online</span></div>
+        </div>
+      </main>
+      <section class="home-feat">
+        <div class="home-feat-i"><div class="fi"></div><h3>Streaming cepat</h3><p>Balasan real-time, minim delay, nyaman dipakai harian.</p></div>
+        <div class="home-feat-i"><div class="fi"></div><h3>Tanpa login</h3><p>Langsung chat di browser, tidak perlu akun DeepSeek.</p></div>
+        <div class="home-feat-i"><div class="fi"></div><h3>Anti-abuse</h3><p>Session dilindungi PoW & origin lock agar stabil.</p></div>
+      </section>
+      <section class="home-cta">
+        <h2>Siap mencoba?</h2>
+        <p>Satu klik langsung masuk ruang chat. Tidak perlu daftar.</p>
+        <button type="button" class="land-btn" id="landChat2">Chat Sekarang</button>
+      </section>
+      <footer class="home-ft">
+        <div class="home-ft-grid">
+          <div>
+            <div class="home-ft-t">Community</div>
+            <a href="https://t.me/aptghostidn" target="_blank" rel="noopener">Grup · t.me/aptghostidn</a>
+            <a href="https://t.me/shssuite" target="_blank" rel="noopener">Saluran · t.me/shssuite</a>
+            <a href="https://t.me/aptinternational" target="_blank" rel="noopener">Dev · t.me/aptinternational</a>
+          </div>
+          <div>
+            <div class="home-ft-t">Kontak</div>
+            <a href="mailto:shssuite@gmail.com">shssuite@gmail.com</a>
+            <span>Dev · yanshsID</span>
+          </div>
+        </div>
+        <div class="home-ft-copy">© ${new Date().getFullYear()} UnityFire · Worm DeepSeek</div>
+      </footer>
+    </div>
+  `;
+  const e = () => {
+    location.href = "/chat"
+  };
+  document.getElementById("landChat").onclick = e, document.getElementById("landChat2").onclick = e
+}</script>
+  <style data-bundled-from="https://www.worm-deepseek.my.id/assets/index-B0R6zKSt.css">*{box-sizing:border-box;margin:0;padding:0}:root{--bg:#0e0e0e;--s:#161616;--in:#1c1c1e;--bd:#2c2c2e;--t:#e8e8e8;--m:#8e8e93;--b:#ef4444}html,body{height:100%;background:var(--bg);color:var(--t);font-family:-apple-system,BlinkMacSystemFont,SF Pro Text,Segoe UI,Roboto,sans-serif;-webkit-font-smoothing:antialiased}body{overflow:hidden}#app{display:flex;height:100%;position:relative}.side{position:fixed;inset:0 auto 0 0;width:min(300px,86vw);background:#121212;z-index:60;transform:translate(-105%);transition:transform .25s ease;display:flex;flex-direction:column;border-right:1px solid #222}.side.open{transform:translate(0)}.side-bg{position:fixed;top:0;right:0;bottom:0;left:0;background:#00000073;z-index:55;display:none}.side-bg.open{display:block}.side-h{padding:14px 12px;display:flex;gap:8px;align-items:center}.side-search{flex:1;background:#1c1c1e;border:1px solid #2c2c2e;border-radius:20px;padding:8px 12px;color:#fff;font-size:13px;outline:none}.side-list{flex:1;overflow-y:auto;padding:4px 8px 16px}.side-label{font-size:11px;color:#666;padding:10px 8px 6px}.side-item{padding:10px 12px;border-radius:10px;font-size:13.5px;color:#ddd;cursor:pointer;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.side-item:active,.side-item.on{background:#1e1e1e}.side-ft{padding:12px;border-top:1px solid #222;font-size:12px;color:#888}.main-wrap{flex:1;display:flex;flex-direction:column;height:100%;min-width:0}.hdr{height:48px;display:flex;align-items:center;justify-content:space-between;padding:0 8px;flex-shrink:0;position:relative}.hdr-c{position:absolute;left:50%;transform:translate(-50%);text-align:center;pointer-events:none}.hdr-t{font-size:15px;font-weight:600}.hdr-s{display:flex;align-items:center;justify-content:center;gap:3px;font-size:10px;color:var(--m);margin-top:1px}.ib{background:none;border:none;color:#fff;width:40px;height:40px;border-radius:10px;display:flex;align-items:center;justify-content:center;cursor:pointer}.ib:active{background:#222}.ib svg{width:22px;height:22px;stroke:currentColor;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}.sc{flex:1;overflow-y:auto;-webkit-overflow-scrolling:touch;padding:8px 16px 12px}.sc::-webkit-scrollbar{display:none}.msg{max-width:720px;margin:0 auto 22px}.msg.u{display:flex;justify-content:flex-end}.ub{background:#2c2c2e;border-radius:18px;padding:9px 14px;font-size:15px;line-height:1.45;max-width:82%;word-break:break-word}.ab{width:100%}.read-web{font-size:13px;color:var(--m);margin-bottom:10px;cursor:pointer;display:none;align-items:center;gap:2px}.read-web.show{display:inline-flex}.thk{margin-bottom:12px;display:none}.thk.show{display:block}.thk-h{font-size:13px;color:var(--m);cursor:pointer;display:inline-flex;align-items:center;gap:4px;-webkit-user-select:none;user-select:none}.thk-b{margin-top:8px;padding-left:12px;border-left:2px solid #2c2c2e;font-size:13.5px;color:#9a9a9a;line-height:1.65;white-space:pre-wrap}.at{font-size:15.5px;line-height:1.75;color:#e8e8e8;word-break:break-word}.at strong{font-weight:650}.at em{font-style:italic}.at code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;background:#1c1c1e;padding:1px 5px;border-radius:4px;font-size:13.5px}.at .h{font-size:16px;font-weight:650;margin:14px 0 6px}.ci{display:inline-flex;align-items:center;justify-content:center;min-width:17px;height:17px;padding:0 4px;border-radius:9px;background:#2c2c2e;color:#aaa;font-size:10.5px;font-weight:600;margin:0 1px;vertical-align:middle;cursor:pointer;line-height:1}.codebox{margin:12px 0;border-radius:12px;overflow:hidden;background:#151515;border:1px solid #2a2a2a}.codehd{display:flex;align-items:center;justify-content:space-between;padding:8px 12px;background:#1a1a1a;font-size:12px;color:#999}.copybtn{background:none;border:none;color:#aaa;font-size:12px;cursor:pointer;padding:4px 8px;border-radius:6px}.copybtn:active{background:#2a2a2a;color:#fff}.codebox pre{margin:0;padding:12px 14px;overflow-x:auto;font-size:13px;line-height:1.55}.codebox code{background:none;padding:0;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;color:#d4d4d4}.kw{color:#c792ea}.st{color:#c3e88d}.cm{color:#546e7a}.nu{color:#f78c6c}.fn{color:#82aaff}.typing{display:inline-flex;gap:5px;padding:6px 0;align-items:center}.typing span{width:7px;height:7px;border-radius:50%;background:#666;animation:blink 1.2s infinite ease-in-out}.typing span:nth-child(2){animation-delay:.2s}.typing span:nth-child(3){animation-delay:.4s}@keyframes blink{0%,80%,to{opacity:.25;transform:scale(.85)}40%{opacity:1;transform:scale(1)}}.src-row{margin-top:14px}.src-chip{display:inline-flex;align-items:center;gap:7px;padding:6px 11px;border-radius:20px;background:#1a1a1a;border:1px solid #2a2a2a;font-size:12.5px;color:#ccc;cursor:pointer}.src-ic{display:flex;align-items:center}.src-ic img{width:15px;height:15px;border-radius:50%;margin-left:-5px;border:1.5px solid var(--bg);object-fit:cover;background:#333}.src-ic img:first-child{margin-left:0}.acts{display:flex;align-items:center;gap:2px;margin-top:10px;opacity:.75}.acts button{background:none;border:none;color:#888;width:32px;height:32px;border-radius:8px;cursor:pointer;display:flex;align-items:center;justify-content:center}.acts button:active{background:#222}.acts svg{width:16px;height:16px;stroke:currentColor;fill:none;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}.empty{text-align:center;padding-top:28vh;color:var(--m)}.empty h1{font-size:28px;font-weight:700;color:#fff;margin-bottom:6px;letter-spacing:-.5px}.ft{flex-shrink:0;padding:6px 12px calc(10px + env(safe-area-inset-bottom));background:var(--bg)}.ft-i{max-width:720px;margin:0 auto}.status-line{font-size:13px;color:var(--m);padding:0 4px 6px;min-height:18px}.files{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:6px}.fchip{background:#2c2c2e;border-radius:12px;padding:8px 10px;font-size:12px;display:flex;align-items:center;gap:8px;max-width:100%}.fchip .fi{width:32px;height:32px;border-radius:8px;background:#3a3a3c;display:flex;align-items:center;justify-content:center;flex-shrink:0}.fchip .fi svg{width:18px;height:18px;stroke:#ccc;fill:none;stroke-width:1.6}.fchip .fn{font-size:13px;font-weight:500;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:160px}.fchip .fs{font-size:11px;color:var(--m)}.fchip button{background:none;border:none;color:#888;font-size:14px;cursor:pointer;padding:4px;margin-left:4px}.box{background:var(--in);border:1px solid var(--bd);border-radius:22px;padding:8px 10px 8px 12px}.box textarea{width:100%;background:transparent;border:none;outline:none;color:var(--t);font-size:15px;line-height:1.4;resize:none;max-height:120px;font-family:inherit;padding:4px 0 6px}.bar{display:flex;align-items:center;justify-content:space-between;gap:6px}.opts{display:flex;gap:6px;align-items:center;flex-wrap:wrap}.opt{display:inline-flex;align-items:center;gap:5px;padding:5px 10px;border-radius:14px;border:1px solid #333;font-size:12px;color:var(--m);cursor:pointer;-webkit-user-select:none;user-select:none;background:transparent;white-space:nowrap}.opt.on{border-color:var(--b);color:#fff;background:#ef444426}.opt svg{width:14px;height:14px;stroke:currentColor;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}.ract{display:flex;align-items:center;gap:4px}.ract button{background:none;border:none;color:#888;width:34px;height:34px;border-radius:50%;cursor:pointer;display:flex;align-items:center;justify-content:center}.ract button:active{background:#2a2a2a}.ract button.rec{color:#ef4444;background:#ef444426}.ract svg{width:20px;height:20px;stroke:currentColor;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}.send{width:34px!important;height:34px!important;border-radius:50%!important;background:#ef4444!important;color:#fff!important;border:none;display:flex;align-items:center;justify-content:center;cursor:pointer}.send:disabled{background:#333!important;color:#666!important}.send svg{width:18px;height:18px;stroke:currentColor;fill:none;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}.attach{display:none;padding:8px 0 4px;gap:8px;justify-content:center}.attach.show{display:flex}.att-b{flex:1;max-width:110px;background:#2c2c2e;border:none;border-radius:14px;padding:14px 8px;color:#ddd;font-size:12px;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:6px}.att-b svg{width:22px;height:22px;stroke:currentColor;fill:none;stroke-width:1.6;stroke-linecap:round}.att-b:active{background:#3a3a3c}.hint{text-align:center;font-size:11px;color:#555;padding-top:6px}.ov{position:fixed;top:0;right:0;bottom:0;left:0;background:#00000080;z-index:50;display:none;align-items:flex-end;justify-content:center}.ov.show{display:flex}.sheet{background:#1c1c1e;border-radius:16px 16px 0 0;width:100%;max-width:560px;max-height:78vh;display:flex;flex-direction:column;overflow:hidden}.sheet-h{display:flex;align-items:center;justify-content:space-between;padding:14px 16px;border-bottom:1px solid #2c2c2e}.sheet-h h3{font-size:15px;font-weight:600}.sheet-b{overflow-y:auto;flex:1;padding:4px 0 20px}.si{display:block;padding:12px 16px;text-decoration:none;color:inherit;border-bottom:1px solid #222}.si-t{display:flex;align-items:center;gap:8px;margin-bottom:3px}.si-ic{width:16px;height:16px;border-radius:50%;object-fit:cover;background:#333;flex-shrink:0}.si-site{font-size:12px;color:#999;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.si-n{font-size:12px;color:#666;font-weight:600}.si-title{font-size:14px;font-weight:600;line-height:1.35;margin-bottom:3px}.si-url{font-size:11px;color:#666;word-break:break-all;margin-bottom:3px}.si-sn{font-size:12px;color:#888;line-height:1.4;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}.boot{display:flex;flex-direction:column;align-items:center;justify-content:center;height:55vh;gap:12px;color:var(--m)}.sp{width:26px;height:26px;border:2px solid #333;border-top-color:var(--b);border-radius:50%;animation:r .65s linear infinite}@keyframes r{to{transform:rotate(360deg)}}.fchip.uploading{opacity:.85}.fchip.error{border:1px solid #7f1d1d}.fchip .fi img{width:32px;height:32px;border-radius:8px;object-fit:cover}.fspin{width:16px;height:16px;border:2px solid #444;border-top-color:#ef4444;border-radius:50%;animation:r .7s linear infinite}.fchip .ferr{font-size:11px;color:#f87171;margin-top:2px}.fchip.ok .fi{background:#1e3a5f}.ufiles{display:flex;flex-direction:column;align-items:flex-end;gap:6px;margin-bottom:6px}.uchip{display:flex;align-items:center;gap:10px;background:#2c2c2e;border:1px solid #3a3a3c;border-radius:14px;padding:8px 12px 8px 8px;max-width:260px}.udoc{width:40px;height:40px;border-radius:10px;background:#1e3a5f;display:flex;align-items:center;justify-content:center;flex-shrink:0}.udoc svg{width:22px;height:22px}.uthumb{width:40px;height:40px;border-radius:10px;object-fit:cover;flex-shrink:0}.umeta{min-width:0}.uname{font-size:13px;font-weight:600;color:#e5e5e5;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:170px}.usize{font-size:11px;color:#8e8e93;margin-top:2px}.msg.u{flex-direction:column;align-items:flex-end;gap:6px}.fchip .fi{position:relative}.foverlay{position:absolute;top:0;right:0;bottom:0;left:0;background:#00000073;border-radius:8px;display:flex;align-items:center;justify-content:center}.auth-wrap{position:fixed;top:0;right:0;bottom:0;left:0;z-index:100;background:radial-gradient(ellipse at 30% 20%,#1a2332,#0b0b0c 55%);display:flex;align-items:center;justify-content:center;padding:20px}.auth-card{width:100%;max-width:400px;background:#161618eb;-webkit-backdrop-filter:blur(20px);backdrop-filter:blur(20px);border:1px solid rgba(255,255,255,.08);border-radius:24px;padding:36px 28px 28px;box-shadow:0 24px 80px #0000008c,0 0 0 1px #ef444414}.auth-brand{text-align:center;margin-bottom:28px}.auth-icon{width:72px;height:72px;margin:0 auto 14px;display:flex;align-items:center;justify-content:center;background:transparent;border:none;box-shadow:none;border-radius:0;overflow:visible}.auth-icon img{width:72px;height:72px;object-fit:contain;display:block;background:transparent}.auth-logo{font-size:24px;font-weight:700;letter-spacing:-.4px;margin-bottom:6px}.auth-sub{font-size:13px;color:#8e8e93}.auth-field{margin-bottom:16px}.auth-lab{display:block;font-size:12px;font-weight:500;color:#8e8e93;margin:0 0 7px 2px}.auth-inp-wrap{position:relative;display:flex;align-items:center}.auth-inp-ic{position:absolute;left:14px;width:18px;height:18px;color:#666;pointer-events:none;flex-shrink:0}.auth-inp{width:100%;box-sizing:border-box;background:#0f0f11;border:1px solid #2c2c2e;border-radius:14px;padding:13px 44px;color:#fff;font-size:15px;outline:none;transition:border-color .15s,box-shadow .15s}.auth-inp:focus{border-color:#ef4444;box-shadow:0 0 0 3px #ef44442e}.auth-inp::placeholder{color:#555}.auth-eye{position:absolute;right:8px;width:36px;height:36px;border:0;background:transparent;color:#666;border-radius:10px;cursor:pointer;display:flex;align-items:center;justify-content:center;padding:0}.auth-eye svg{width:18px;height:18px}.auth-eye:hover,.auth-eye.on{color:#aaa}.auth-err{min-height:20px;font-size:12.5px;color:#f87171;margin:2px 0 12px;line-height:1.4;text-align:center}.auth-submit{width:100%;border:0;border-radius:14px;padding:14px;background:linear-gradient(135deg,#ef4444,#dc2626);color:#fff;font-size:15px;font-weight:600;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:10px;box-shadow:0 8px 24px #ef44444d;transition:opacity .15s,transform .1s}.auth-submit:hover:not(:disabled){opacity:.95}.auth-submit:active:not(:disabled){transform:scale(.98)}.auth-submit:disabled{opacity:.7;cursor:default}.auth-spin{width:16px;height:16px;border:2px solid rgba(255,255,255,.3);border-top-color:#fff;border-radius:50%;animation:r .65s linear infinite}.auth-hint{margin-top:20px;font-size:11.5px;color:#555;text-align:center;line-height:1.45}.land{position:fixed;top:0;right:0;bottom:0;left:0;z-index:90;background:radial-gradient(ellipse at 50% 30%,#1a1010,#0b0b0c 60%);display:flex;flex-direction:column;align-items:center;justify-content:center;padding:24px;gap:20px}.land-logo{width:88px;height:88px;object-fit:contain}.land-title{font-size:28px;font-weight:700;letter-spacing:-.5px}.land-sub{font-size:14px;color:#8e8e93;text-align:center;max-width:280px;line-height:1.5}.land-btn{margin-top:12px;border:0;border-radius:16px;padding:16px 48px;background:linear-gradient(135deg,#ef4444,#dc2626);color:#fff;font-size:16px;font-weight:600;cursor:pointer;box-shadow:0 10px 30px #ef444459}.land-btn:active{transform:scale(.98)}.land-free{font-size:12px;color:#666}.pay-ov{position:fixed;top:0;right:0;bottom:0;left:0;z-index:120;background:#000000a6;display:flex;align-items:center;justify-content:center;padding:16px}.pay-card{width:100%;max-width:380px;background:#161618;border:1px solid #2a2a2e;border-radius:20px;padding:24px;max-height:90vh;overflow-y:auto}.pay-card h3{font-size:18px;margin:0 0 8px;text-align:center}.pay-card p{font-size:13px;color:#8e8e93;text-align:center;margin:0 0 16px;line-height:1.45}.pay-opt{display:flex;flex-direction:column;gap:10px;margin-bottom:12px}.pay-btn{border:1px solid #2c2c2e;background:#0f0f11;border-radius:14px;padding:14px 16px;color:#fff;text-align:left;cursor:pointer}.pay-btn:hover{border-color:#ef4444}.pay-btn strong{display:block;font-size:15px;margin-bottom:4px}.pay-btn span{font-size:12px;color:#8e8e93}.pay-qr{text-align:center;margin:12px 0}.pay-qr img{width:200px;height:200px;background:#fff;border-radius:12px;padding:8px}.pay-amt{font-size:15px;font-weight:600;margin:8px 0;text-align:center}.pay-st{font-size:12px;color:#fbbf24;text-align:center;min-height:18px}.pay-close{width:100%;margin-top:12px;border:0;border-radius:12px;padding:12px;background:#2c2c2e;color:#fff;cursor:pointer}.cred-pill{font-size:11px;color:#8e8e93;padding:2px 8px;border-radius:8px;background:#1c1c1e}.hdr{gap:6px}.hdr-link{border:0;background:transparent;color:#ef4444;font-size:12px;font-weight:600;padding:6px 8px;cursor:pointer;white-space:nowrap}.hdr-link:hover{opacity:.85}.auth-free{display:block;margin-top:14px;text-align:center;color:#ef4444;font-size:13px;font-weight:600;text-decoration:none}.home{min-height:100vh;display:flex;flex-direction:column;position:relative;overflow-x:hidden}.home-bg{position:fixed;top:0;right:0;bottom:0;left:0;z-index:0;background:radial-gradient(ellipse 80% 50% at 50% -10%,rgba(239,68,68,.18),transparent 55%),radial-gradient(ellipse 60% 40% at 100% 50%,rgba(239,68,68,.06),transparent),#0b0b0c}.home-top,.home-hero,.home-ft{position:relative;z-index:1}.home-top{display:flex;align-items:center;justify-content:space-between;padding:16px 20px;max-width:960px;margin:0 auto;width:100%;box-sizing:border-box}.home-brand{display:flex;align-items:center;gap:10px;font-weight:700;font-size:15px}.home-ico{width:32px;height:32px;border-radius:8px;object-fit:cover}.home-top-a{color:#ef4444;text-decoration:none;font-size:13px;font-weight:600}.home-hero{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:24px 20px 48px;max-width:640px;margin:0 auto}.home-banner{width:min(100%,420px);border-radius:20px;object-fit:cover;margin-bottom:28px;box-shadow:0 24px 60px #00000073,0 0 0 1px #ffffff0f}.home-hero h1{font-size:clamp(28px,6vw,40px);font-weight:800;letter-spacing:-.8px;margin:0 0 12px;background:linear-gradient(135deg,#fff 30%,#fca5a5);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}.home-lead{font-size:15px;color:#8e8e93;line-height:1.55;margin:0 0 28px;max-width:400px}.home-actions{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin-bottom:24px}.home-ghost{display:inline-flex;align-items:center;padding:14px 22px;border-radius:16px;border:1px solid #2c2c2e;color:#e8e8e8;text-decoration:none;font-size:14px;font-weight:600}.home-pills{display:flex;flex-wrap:wrap;gap:8px;justify-content:center}.home-pills span{font-size:11px;font-weight:600;color:#fca5a5;background:#ef44441f;border:1px solid rgba(239,68,68,.2);padding:6px 12px;border-radius:999px}.home-ft{border-top:1px solid #1c1c1e;padding:28px 20px 32px;margin-top:auto}.home-ft-grid{max-width:960px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:24px}@media (max-width:520px){.home-ft-grid{grid-template-columns:1fr}}.home-ft-t{font-size:12px;font-weight:700;color:#fff;margin-bottom:10px;text-transform:uppercase;letter-spacing:.04em}.home-ft a,.home-ft span{display:block;font-size:13px;color:#8e8e93;text-decoration:none;margin-bottom:6px;line-height:1.4}.home-ft a:hover{color:#ef4444}.home-ft-copy{max-width:960px;margin:20px auto 0;padding-top:16px;border-top:1px solid #1c1c1e;font-size:11px;color:#555;text-align:center}.home-grid{position:fixed;top:0;right:0;bottom:0;left:0;z-index:0;opacity:.35;background-image:linear-gradient(rgba(255,255,255,.03) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.03) 1px,transparent 1px);background-size:48px 48px;-webkit-mask-image:radial-gradient(ellipse at center,black 20%,transparent 70%);mask-image:radial-gradient(ellipse at center,black 20%,transparent 70%)}.home-nav{display:flex;align-items:center;gap:16px}.home-nav a{color:#8e8e93;text-decoration:none;font-size:13px;font-weight:500}.home-nav a:hover{color:#fff}.home-nav-cta{background:linear-gradient(135deg,#ef4444,#dc2626)!important;color:#fff!important;padding:8px 16px;border-radius:999px;font-weight:600!important}.home-badge{display:inline-block;font-size:11px;font-weight:600;color:#fca5a5;background:#ef44441f;border:1px solid rgba(239,68,68,.25);padding:6px 14px;border-radius:999px;margin-bottom:18px;letter-spacing:.02em}.home-hero h1{font-size:clamp(32px,7vw,52px);font-weight:800;letter-spacing:-1.2px;margin:0 0 16px;line-height:1.12;color:#fff;-webkit-text-fill-color:initial;background:none}.home-hero h1 span{background:linear-gradient(135deg,#ef4444,#fca5a5);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}.home-stats{display:flex;gap:28px;justify-content:center;margin:8px 0 36px}.home-stats div{text-align:center}.home-stats strong{display:block;font-size:22px;font-weight:800;color:#fff}.home-stats span{font-size:11px;color:#8e8e93}.home-preview{width:100%;max-width:560px;border-radius:20px;overflow:hidden;border:1px solid rgba(255,255,255,.08);box-shadow:0 40px 80px #00000080,0 0 60px #ef44441f}.home-preview img{width:100%;height:auto;display:block;vertical-align:middle}.home-feat{position:relative;z-index:1;display:grid;grid-template-columns:repeat(3,1fr);gap:16px;max-width:900px;margin:0 auto;padding:0 20px 48px}@media (max-width:700px){.home-feat{grid-template-columns:1fr}.home-nav a:not(.home-nav-cta){display:none}}.home-feat-i{background:#161618cc;border:1px solid #2a2a2e;border-radius:16px;padding:20px;text-align:left}.home-feat-i .fi{font-size:22px;margin-bottom:10px}.home-feat-i h3{font-size:15px;margin:0 0 6px}.home-feat-i p{font-size:13px;color:#8e8e93;margin:0;line-height:1.45}.home{min-height:100%;overflow:visible}.home-cta{position:relative;z-index:1;text-align:center;padding:48px 20px 56px;max-width:560px;margin:0 auto}.home-cta h2{font-size:24px;margin:0 0 8px;font-weight:800}.home-cta p{color:#8e8e93;font-size:14px;margin:0 0 20px}
+</style>
+</head>
+<body>
+  <div id="app"></div>
+
+
+</body></html>
